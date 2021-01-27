@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  border: 0;
+  box-sizing: border-box;
+  padding: none;
+  margin: 0;
+  outline: none;
+}
+
+html,
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+input, 
+textarea, 
+button {
+  font: inherit;
+}
+
+button {
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  height: 100px;
+  margin: auto;
+  width: 100px;
+}
