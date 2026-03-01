@@ -1,0 +1,16 @@
+{
+  "name": "recorder",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarsislimadev/audio-recorder.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarsislimadev/audio-recorder/issues"
+  },
+  "homepage": "https://github.com/tarsislimadev/audio-recorder#readme"
+}

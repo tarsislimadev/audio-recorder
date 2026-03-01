@@ -4,14 +4,31 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>audio recorder</title>
-  <link rel="stylesheet" href="style.css">
+  <title>recorder</title>
+  <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
-  <h1>Audio</h1>
-  <button id="btnPlay">play</button>
-  <script src="scripts.js"></script>
+  <div id="app"></div>
+  <div id="faq">
+    <h2>F. A. Q. </h2>
+    <div class="question"></div>
+    <div class="answer"></div>
+    <div class="question"></div>
+    <div class="answer"></div>
+    <div class="question"></div>
+    <div class="answer"></div>
+    <div class="question"></div>
+    <div class="answer"></div>
+  </div>
+
+  <script type="module">
+    import { HTML } from './libs/afrontend/index.js'
+    import { Page } from './index.js'
+
+    HTML.fromId('app').append(new Page())
+    HTML.fromElement(document.body).setStyle('margin', '0')
+  </script>
 </body>
 
 </html>
